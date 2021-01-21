@@ -1,11 +1,61 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.todo-input {
+  border-radius: 8px !important;
+}
+
+.todoContainer {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.todo-action-button {
+  margin: 0 5px;
+}
+
+.addToDoButton {
+  border-radius: 8px !important;
+  /* float: right;
+  margin-top: 2em; */
+}
+
+.toDoList-container {
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.toDoItem-container {
+  width: 80%;
+  padding: 0 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.todo-description {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.completed {
+
+  opacity: 0.7;
+}
+
+.pending {}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,6 +82,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
