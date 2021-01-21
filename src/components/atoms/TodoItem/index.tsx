@@ -31,7 +31,7 @@ const TodoItem: FC<TodoItemProps> = ({
             <div>
               {status === "Done" ? <CheckCircleTwoTone style={{ marginRight: "1em", fontSize: '2em', color: '#10b981' }} /> : null}
             </div>
-            <div className="todo-description">Description: {description}</div>
+            <div className="todo-description">{description}</div>
           </div>
         </div>
         <div className="flex-2 ...">
